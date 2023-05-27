@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1110px;
+    width: 100%;
+    height: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 15px 0;
+
+}
+
+
+.nav_logo {
+    margin-top: 50px;
+    width: 120px;
+    height: 151px;
+}
+
+.header_nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nav_link {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-top: 79px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: gray;
+}
+
+.menu_link a {
+    color: #8C8A8A;
+}
+
+.banner {
+    height: 450px;
+    background: url(../img/block\ 1.jpg);
+}
+
+.info {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    height: 500px;
+}
+
+.reason {
+    display: flex;
+    max-width: 730px;
+    max-height: 500px;
+    background-color: #f0f0f0;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 50px 95px 51px 40px;
+}
+
+.contact {
+    display: flex;
+    max-width: 350px;
+    height: 500px;
+    background-color: #f0f0f0;
+    flex-direction: column;
+    padding:50px 24px 159px 40px;
+
+
+}
+
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4581b7;
+}
+
+.text {
+    font-size: 16px;
+    font-weight: 400;
+    
+    letter-spacing: 0em;
+    text-align: left;
+    color: grey;
+    margin-top: 25px;
+
+}
+
+#number{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: grey;
+    margin-top: 25px;
+
+}
+#mail{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: grey;
+    margin-top: 45px;
+
+
+}
+
+.call {
+    display: flex;
+    background: #f0f0f0;
+    height: 150px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+
+}
+
+
+.image {
+    margin: 15px 0 15px 40px;
+    background-color: #f0f0f0;
+
+}
+
+.call_center {
+    color: #f0f0f0;
+}
+
+.call__center h5 {
+    color: grey;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.call__center a {
+    color: grey;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
